@@ -22,7 +22,7 @@ shop -> ng test
 ##### \shop\src\app\pipes\filter-text.pipe.spec.ts
 ##### \shop\src\app\pipes\summary.pipe.spec.ts
 ##### \shop\src\app\directives\text-format.directive.spec.ts
-##### \shop\src/app/components/shop-item-price/shop-item-price.component.spec.ts
+##### \shop\src\app\components\shop-item-price\shop-item-price.component.spec.ts
 
 ##### W przedstawionych testach tworzymy instancję klasy i testujemy jej funkcje
  
