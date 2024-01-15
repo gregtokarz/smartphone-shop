@@ -52,8 +52,9 @@ Dokumentacja api dostępna jest pod adresem http://localhost:3001/api-docs/ po u
 # Technologie użyte w projekcie
 ##### frontend
 - Angular
+- Jasmine
 ##### backend
 - Node.js
 - MongoDB
 - Jest
-- Jasmine
+
