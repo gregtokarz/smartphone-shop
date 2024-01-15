@@ -1,0 +1,18 @@
+<div class="container">
+    <h1 class="text-center">{{text}}</h1>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <img [src]="image" style="width: 300px;" >
+        </div>
+        <div class="col-md-6 p-4 mt-5">
+                {{ details }} <br><br><br><br>
+            <button>Kup Teraz </button><span class="p-2">{{ price }}</span>
+            <button *ngIf="isAuthenticated()" class="btn btn-danger position-absolute fixed-bottom"  (click)="deletePost()" routerLink="/">Delete Item</button>
+        </div>
+        <div class="col-md-6 p-4 mt-5">
+
+        </div>
+
+    </div>
+</div>
+

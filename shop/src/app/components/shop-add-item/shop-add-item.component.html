@@ -1,0 +1,26 @@
+<h1 class="text-center">Dodaj produkt</h1>
+<form (ngSubmit)="addPost()">
+    <div class="input-group p-1">
+        <input [(ngModel)]="post.title" type="text" class="form-control"
+               name="title" placeholder="Title" title="Title">
+    </div>
+    <div class="input-group p-1">
+        <input [(ngModel)]="post.text" type="text" class="form-control"
+               name="text" placeholder="Text" title="Text">
+    </div>
+    <div class="input-group p-1">
+        <input [(ngModel)]="post.price" type="text" class="form-control"
+               name="price" placeholder="Price" title="Price">
+    </div>
+    <div class="input-group p-1">
+        <input [(ngModel)]="post.details" type="text" class="form-control"
+               name="details" placeholder="Details" title="Details">
+    </div>
+    <div class="input-group p-1">
+        <input [(ngModel)]="post.image" type="text" class="form-control"
+               name="image" placeholder="Image" title="Image">
+    </div>
+    <div class="text-center">
+    <button type="submit" class="btn btn-primary ">Dodaj post</button>
+    </div>
+</form>
